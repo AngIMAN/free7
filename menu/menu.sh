@@ -261,7 +261,7 @@ menu
 }
 clear 
 echo -e "  ${z}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m${NC}"
-echo -e "  ${z}|\033[41m               ⇱  VPN EXPRESS  ⇲              ${NC}${z}|${NC}"
+echo -e "  ${z}|\033[41m               ⇱  VPN EXPRESS  ⇲            ${NC}${z}|${NC}"
 echo -e "  ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m${NC}"
 echo -e "  ${z}|${r}⇲ ${NC}${z}SYSTEM OS     ${NC}: $MODEL"
 echo -e "  ${z}|${r}⇲ ${NC}${z}ISP           ${NC}: $ISP"
@@ -294,7 +294,6 @@ echo -e "       ${z}|  ${r}⇲ ${NC}${z}User    :${NC} $Name"
 echo -e "       ${z}|  ${r}⇲ ${NC}${z}Expired :${NC} $Exp"
 echo -e "       ${z}|  ${r}⇲ ${NC}${z}Creator :${NC} @VpnXPRESS"
 echo -e "       ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m${NC}"
-echo -e "  ${KIRI}${a} ${KANAN}"
 echo -e "${IWhite}"
 read -p " Select From Options [ 1 - 11 ] >>   "  opt
 case $opt in
