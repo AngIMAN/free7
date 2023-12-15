@@ -275,7 +275,6 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m            ⇱ Service Information ⇲             \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "❇️ SSH / TUN               :$status_ssh"
-echo -e "❇️ SSH UDP                 :$udp"
 echo -e "❇️ OpenVPN                 :$status_openvpn"
 echo -e "❇️ Dropbear                :$status_beruangjatuh"
 echo -e "❇️ Stunnel4                :$status_stunnel"
