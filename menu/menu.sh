@@ -264,7 +264,6 @@ echo -e "  ${z}|\033[41m             ⇱  VPN EXPRESS  ⇲              ${NC}${z
 echo -e "  ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m${NC}"
 echo -e "  ${z}|${r}⇲ ${NC}${z}SYSTEM OS     ${NC}: $MODEL"
 echo -e "  ${z}|${r}⇲ ${NC}${z}ISP           ${NC}: $ISP"
-echo -e "  ${z}|${r}⇲ ${NC}${z}CITY          ${NC}: $CITY"
 echo -e "  ${z}|${r}⇲ ${NC}${z}RAM USAGE     ${NC}: $tram MB | $uram MB"
 echo -e "  ${z}|${r}⇲ ${NC}${z}SERVER UPTIME ${NC}: $uptime"
 echo -e "  ${z}|${r}⇲ ${NC}${z}IP VPS        ${NC}: $IPVPS"
