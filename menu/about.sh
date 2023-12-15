@@ -1,9 +1,9 @@
 #!/bin/bash
 MYIP=$(wget -qO- icanhazip.com)
-echo "Checking VPS"
+echo "VPN XPRESS"
 
 clear
-figlet `Bayu Tunneling`
+figlet `XPRESS`
 echo ""
 read -n 1 -s -r -p "PRESS [ ENTER ] KELUAR MENU"
 menu
