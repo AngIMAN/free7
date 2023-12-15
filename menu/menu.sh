@@ -160,7 +160,6 @@ fram=$( free -m | awk 'NR==2 {print $4}' )
 nginx=$( systemctl status nginx | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
 #################
 r="\033[1;31m"  #REDTERANG
-a=" ${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN SCRIPT BY BAYU TUNNELING"
 ################
 # // Clear
 clear
@@ -280,7 +279,7 @@ echo -e "${IWhite}     STUNNEL ${NC}: $resst" "${IWhite} DROPBEAR ${NC}: $resdbr
 echo -e "  ${z}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m${NC}"
 echo -e "  ${z}│ [${r}01${NC}] ${z}SSH    MENU  ${NC}       ""[${r}07${NC}] ${z}STATUS RUNNING     ${NC}"
 echo -e "  ${z}│ [${r}02${NC}] ${z}VMESS  MENU  ${NC}       ""[${r}08${NC}] ${z}CHANGE BANNER      ${NC}"
-echo -e "  ${z}│ [${r}03${NC}] ${z}VLESS  MENU  ${NC}       ""[${r}09${NC}] ${z}BACKUP & RESTORE   ${NC}"
+echo -e "  ${z}│ [${r}03${NC}] ${z}VLESS  MENU  ${NC}       ""[${r}09${NC}] ${z}BACKUP DATA        ${NC}"
 echo -e "  ${z}│ [${r}04${NC}] ${z}TROJAN MENU  ${NC}       ""[${r}10${NC}] ${z}INSTALL UDP        ${NC}"
 echo -e "  ${z}│ [${r}05${NC}] ${z}SETING MENU  ${NC}       ""[${r}11${NC}] ${z}ADD DOMAIN         ${NC}"        
 echo -e "  ${z}│ [${r}06${NC}] ${z}UPDATE SCRIPT${NC}       ""[${r}12${NC}] ${z}KELUAR SCRIPT      ${NC}"
