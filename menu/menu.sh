@@ -260,7 +260,7 @@ menu
 }
 clear 
 echo -e "  ${z}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m${NC}"
-echo -e "  ${z}|\033[41m               ⇱  VPN EXPRESS  ⇲            ${NC}${z}|${NC}"
+echo -e "  ${z}|\033[41m             ⇱  VPN EXPRESS  ⇲              ${NC}${z}|${NC}"
 echo -e "  ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m${NC}"
 echo -e "  ${z}|${r}⇲ ${NC}${z}SYSTEM OS     ${NC}: $MODEL"
 echo -e "  ${z}|${r}⇲ ${NC}${z}ISP           ${NC}: $ISP"
